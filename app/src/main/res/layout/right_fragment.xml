@@ -18,7 +18,7 @@
         android:orientation="vertical" android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <TextView
-            android:text="例句（用/隔开）:"
+            android:text="例句（用_隔开）:"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
@@ -26,13 +26,22 @@
             android:id="@+id/lj"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" /></LinearLayout>
+
     <Button
         android:id="@+id/update"
         android:text="更新"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
-
-
+    <Button
+        android:id="@+id/delete"
+        android:text="刪除"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/f5"
+        android:text="刷新单词列表"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
 
 </LinearLayout>

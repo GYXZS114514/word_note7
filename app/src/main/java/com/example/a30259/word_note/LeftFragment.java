@@ -6,6 +6,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.a30259.word_note.R;
+
 /**
  * Created by 30259 on 2019/11/13.
  */
